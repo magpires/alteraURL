@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Altera URL",
+    "description": "Alterar entre URL de produção e desenvolvimento.",
+    "author": "Weverton Pires",
+    "browser_action": {
+        "default_title": "Alterar URL",
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": ["tabs"]
+}
