@@ -1,8 +1,3 @@
-function  alerta() {
-    alert("AAAAAA");
-}
-
-
 document.getElementById("urlLocal").onclick = function() {trocaURL("http://127.0.0.1:5500")};
 document.getElementById("urlProducao").onclick = function() {trocaURL("http://www.banestes.com.br")};
 
